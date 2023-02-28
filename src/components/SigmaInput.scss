@@ -1,0 +1,80 @@
+/* Inactive tab */
+
+.noHover{
+    pointer-events: none;
+}
+
+.disable-text-selection{
+    -moz-user-select:none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE*/
+    user-select: none; /* Standard syntax */
+ }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #0d6efd !important;
+    color: white !important;
+}
+.nav-link  {
+    color: white !important;
+    background-color: #6c757d !important;
+}
+
+// textarea {
+//     background: url(http://i.imgur.com/2cOaJ.png);
+//     background-attachment: local;
+//     background-repeat: no-repeat;
+//     padding-left: 35px;
+//     padding-top: 10px;
+//     border-color: #ccc;
+//     font-size: 13px;
+//     line-height: 16px;
+//   }
+  
+//   .textarea-wrapper {
+//     display: inline-block;
+//     background-image: linear-gradient(#F1F1F1 50%, #F9F9F9 50%);
+//     background-size: 100% 32px;
+//     background-position: left 10px;
+//   }
+  
+// .test{
+//     font-size: 16px;
+// }
+
+// .red-col{
+//     background-color: red;
+//     color: white;
+// }
+
+// .nav-tabs .nav-item.show .nav-link{
+//     background-color: red;
+//     color: white;
+// }
+
+// .myClass ul > li > a {
+//     background-color: red;
+//     color: white;
+// }
+
+// .myClass ul > li > a {
+//     background-color: red;
+//     color: white;
+// }
+// .myClass ul > li > a:hover {
+//     background-color: pink;
+// }
+
+// /* Active tab */
+// .myClass ul > li.active > a,
+// .myClass ul > li.active > a:hover,
+// .myClass ul > li.active > a:focus {
+//     background-color: red;
+//     color: white;
+// }
+
+// /* Disabled tab */
+// .myClass ul > li.disabled > a {
+//     background-color: lightgray;
+//     color: darkgray;
+// }
